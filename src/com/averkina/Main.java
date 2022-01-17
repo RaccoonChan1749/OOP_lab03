@@ -1,8 +1,6 @@
 package com.averkina;
 
-import com.averkina.family04.Caviidae;
 import com.averkina.family04.Cricetidae;
-import com.averkina.genus05.Cavia;
 import com.averkina.genus05.Phodopus;
 import com.averkina.phylum01.Chordate;
 import com.averkina.species06.PhodopusRoborovskii;

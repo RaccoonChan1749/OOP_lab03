@@ -25,8 +25,13 @@ public class Queue<T> implements Iterable<T> {
     }
 
     public void add(T t) {
-        if (list.size() <= length) {
-            list.add(t);
+        try {
+            if (list.size() <= length) {
+                list.add(t);
+            } else {
+                throw new QueueException();
+            }
+        } catch (QueueException e) {
         }
     }
 
